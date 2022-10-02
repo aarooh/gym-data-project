@@ -13,9 +13,11 @@ pip install virtualenv
 virtualenv env 
 ~~~
 
-## Activating virtual environment
 
-###Unix / macOS
+
+## Activating virtual environment before installing packages
+
+### Unix / macOS
 Confirm activation with
 ~~~
 source env/bin/activate
@@ -29,7 +31,7 @@ it should return .../env/bin/python
 
 
 ---
-###Windows 
+### Windows 
 Confirm activation with
 ~~~
 .\env\Scripts\activate
@@ -47,9 +49,9 @@ pip install -r requirements.txt
 ## Running tests
 We are using pytest library to make and run tests
 
-run command:
+run command in project root
 ~~~
-pytest test/ in project root
+pytest tests/ 
 ~~~
 
 ## Running the pipeline
